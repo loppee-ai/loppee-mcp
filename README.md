@@ -8,6 +8,7 @@ Public metadata for Loppee's narrow, no-auth MCP discovery surface.
 - Transport: Streamable HTTP
 - Authentication: none
 - Registry identity: `com.loppee/loppee`
+- Source repository: https://github.com/loppee-ai/loppee-mcp
 
 Configure the URL above as a remote HTTP MCP server in a compatible client.
 This repository does not contain credentials and does not require an API key.
@@ -92,10 +93,13 @@ published through this repository.
 
 ## Registry metadata
 
-`server.json` records published version `0.1.3` of the existing
-`com.loppee/loppee` Official MCP Registry listing. The Official Registry reports
-it as the only active version, with the `/mcp/discovery` remote, published at
-`2026-08-24T18:33:32.121626Z`. Versions `0.1.0` through `0.1.2` are retained as
+`server.json` prepares version `0.1.4` of the existing `com.loppee/loppee`
+Official MCP Registry listing. It changes metadata only: the source
+`repository` (`https://github.com/loppee-ai/loppee-mcp`, after the GitHub owner
+rename from `4dwebspro-cell` to `loppee-ai`) and `agent_docs_url`. The remote,
+tools and policies are unchanged. Until `0.1.4` is published, `0.1.3`
+(published `2026-08-24T18:33:32.121626Z`, `/mcp/discovery` remote) remains the
+active Registry version. Versions `0.1.0` through `0.1.2` are retained as
 deprecated history. Registry versions are immutable after publication.
 
 Official MCP Registry publication and GitHub MCP Registry curation are separate

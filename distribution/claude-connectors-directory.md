@@ -67,7 +67,7 @@ changing production data for directory review.
 - Description: `Loppee lets Claude research a named US business through public, evidence-backed records. It can find an exact or genuine-prefix business match, read the business's Trust Card and reviews, explain Loppee's published recommendation basis, and compare known Loppee business IDs. It is read-only, requires no account, and does not accept user address or location data.`
 - Suggested categories: Business; Productivity. Select only categories that the
   current portal actually offers.
-- Documentation: `https://github.com/4dwebspro-cell/loppee-mcp#loppee-mcp`.
+- Documentation: `https://github.com/loppee-ai/loppee-mcp#loppee-mcp`.
 - Privacy: `https://loppee.com/privacy`.
 - Support: `https://loppee.com/support`.
 - Company: `Loppee`.

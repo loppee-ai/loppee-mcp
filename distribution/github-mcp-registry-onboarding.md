@@ -42,9 +42,9 @@ and a fresh production verification against build
 - Hosted Streamable HTTP endpoint:
   `https://loppee.com/mcp/discovery`.
 - Public metadata repository:
-  `https://github.com/4dwebspro-cell/loppee-mcp`.
+  `https://github.com/loppee-ai/loppee-mcp`.
 - Manifest:
-  `https://github.com/4dwebspro-cell/loppee-mcp/blob/main/server.json`.
+  `https://github.com/loppee-ai/loppee-mcp/blob/main/server.json`.
 - Website: `https://loppee.com/agents`.
 - Privacy: `https://loppee.com/privacy`.
 - Terms: `https://loppee.com/terms`.
@@ -89,8 +89,8 @@ MCP Registry at `github.com/mcp`.
 - Official MCP Registry name: `com.loppee/loppee`
 - Active/latest version: `0.1.3`
 - Official Registry API result: https://registry.modelcontextprotocol.io/v0.1/servers?search=com.loppee%2Floppee
-- Public metadata repository: https://github.com/4dwebspro-cell/loppee-mcp
-- Manifest: https://github.com/4dwebspro-cell/loppee-mcp/blob/main/server.json
+- Public metadata repository: https://github.com/loppee-ai/loppee-mcp
+- Manifest: https://github.com/loppee-ai/loppee-mcp/blob/main/server.json
 - Website: https://loppee.com/agents
 - Hosted endpoint: https://loppee.com/mcp/discovery
 - Transport: Streamable HTTP

@@ -68,7 +68,7 @@ clawhub package publish clawhub/loppee-discovery \
   --version 0.1.0 \
   --bundle-format agent \
   --host-targets openclaw \
-  --source-repo 4dwebspro-cell/loppee-mcp \
+  --source-repo loppee-ai/loppee-mcp \
   --source-ref main \
   --source-path clawhub/loppee-discovery \
   --dry-run --json
