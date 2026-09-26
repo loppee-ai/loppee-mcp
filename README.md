@@ -103,6 +103,18 @@ The `/mcp/discovery` remote, tools and policies are unchanged from `0.1.3`
 active. Versions `0.1.0` through `0.1.2` are retained as deprecated history.
 Registry versions are immutable after publication.
 
+### Design note: `repository` links this public metadata repository
+
+Starting with `0.1.4`, the manifest's `repository` field intentionally points
+to this public repository (`https://github.com/loppee-ai/loppee-mcp`, stable
+GitHub repository id `1345142388`). Versions `0.1.0`–`0.1.3` omitted the field
+because the Registry schema describes `repository` as the server's source code,
+and Loppee's production source repository is private. We now link this
+repository deliberately: it is the canonical, public, inspectable home of the
+listing's metadata, connection documentation and security contact, and the
+stable repository id lets clients detect a deleted-and-recreated repository.
+It does not contain, and does not claim to contain, the server implementation.
+
 Official MCP Registry publication and GitHub MCP Registry curation are separate
 gates. Loppee's GitHub Registry onboarding request was submitted on 2026-08-28;
 submission is not inclusion. See
